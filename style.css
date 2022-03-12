@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #1B1B24;
+    color: #FFF;
+    font: normal 16px/1.2 'Open Sans',Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
+.container {
+    display: inline-block;
+    margin: 40px auto 10px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+h3 img {
+    margin-right: 5px;
+}
+
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+.links {
+    text-align: left;
+    margin-top: 2em;
+}
+
+.links li {
+    margin-bottom: 0.7em;
+}
+
+P.blocktext {
+    text-align: left;
+    max-width: 220px;
+    width: 20em
+}
