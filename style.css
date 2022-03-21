@@ -45,10 +45,16 @@ a:active {
 .links {
     text-align: left;
     margin-top: 2em;
+    max-width: 300px;
+}
+
+.left_align {
+    text-align: left;
 }
 
 .links li {
     margin-bottom: 0.7em;
+    
 }
 
 P.blocktext {
@@ -62,3 +68,9 @@ P.blocktext {
     justify-content: center;
     align-items: center;
   }
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+    max-width: 520px;
+}
